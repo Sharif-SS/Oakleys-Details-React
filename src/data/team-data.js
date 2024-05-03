@@ -1,6 +1,6 @@
 export const teamData = [
   {
-    img: "/img/team-1.jpg",
+    img: "/img/team-2.jpg",
     name: "Mitch Oakley",
     position: "Detailing Maestro",
     socials: [
@@ -21,10 +21,10 @@ export const teamData = [
     position: "Supervisor",
     socials: [
 
-      // {
-      //   color: "blue",
-      //   name: "linkedin",
-      // },
+      {
+        color: "blue",
+        name: "linkedin",
+      },
 
     ],
   },
