@@ -121,7 +121,7 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "Elite Welding",
+  brandName: "Oakley's Details",
   action: (
     <a
       href="https://www.facebook.com/profile.php?id=61556028688734"

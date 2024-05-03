@@ -29,14 +29,12 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black"
               >
-                Hot Work, Cool Results.
+                Keep shifting and shining!
 
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-              We specialize in MIG/TIG welding, custom fabrication, and the meticulous repair of aluminum, stainless steel, 
-              and rust-damaged parts.  
-              Our commitment to excellence ensures your project is completed to the highest standards.  
-              Need it done on-site? We'll bring the workshop to you!  Call now for your free quote.
+              Professional Detailing Service for all makes and models. 10+ years of detailing experience with high end to low end vehicles.
+Offering a range of services from basic interior/exterior to full exterior paint correction.
               </Typography>
             </div>
           </div>
