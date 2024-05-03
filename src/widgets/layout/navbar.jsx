@@ -124,10 +124,10 @@ Navbar.defaultProps = {
   brandName: "Oakley's Details",
   action: (
     <a
-      href="https://www.facebook.com/profile.php?id=61556028688734"
+      href="https://www.facebook.com/oakleysdetails"
       target="_blank"
     >
-      <Button variant="gradient" size="sm" fullWidth>
+      <Button className="apply-tonic-green"  size="sm" fullWidth>
         Contact Us On Facebook
       </Button>
     </a>

@@ -49,7 +49,7 @@ Offering a range of services from basic interior/exterior to full exterior paint
                 color={color}
                 title={title}
                 icon={React.createElement(icon, {
-                  className: "w-5 h-5 text-white",
+                  className: "w-5 h-5 text-black",
                 })}
                 description={description}
               />
@@ -57,8 +57,8 @@ Offering a range of services from basic interior/exterior to full exterior paint
           </div>
           <div className="mt-32 flex flex-wrap items-center">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
-              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
-                <FingerPrintIcon className="h-8 w-8 text-white " />
+              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full apply-logo-tonic-green p-2 text-center shadow-lg">
+                <FingerPrintIcon className="h-8 w-8 " />
               </div>
               <Typography
                 variant="h3"
@@ -67,16 +67,17 @@ Offering a range of services from basic interior/exterior to full exterior paint
               >
                 Don't Just Take Our Word For It – See What Our Happy Customers Say
               </Typography>
-              <Typography className="mb-8 font-normal text-blue-gray-500">
-                We're passionate about delivering the highest quality welding results.  But words can only go so far.
+              <Typography className="mb-8 font-normal  text-blue-gray-500">
+                We're passionate about delivering the highest quality results.  But words can only go so far.
                 That's why we invite you to hear directly from the folks we've had the pleasure of serving.
               </Typography>
               
               <a
-                href="https://www.facebook.com/profile.php?id=61556028688734&sk=reviews"
+                href="https://www.facebook.com/oakleysdetails/reviews"
                 target="_blank"
               >
-                <Button variant="filled">Read Reviews</Button>
+                <Button className="bg-[#3ADE0E] text-black" variant="outlined">Read Reviews</Button>
+
               </a>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
@@ -89,16 +90,16 @@ Offering a range of services from basic interior/exterior to full exterior paint
                   />
                 </CardHeader>
                 <CardBody>
-                  <Typography variant="small" color="blue-gray" className="font-normal">Person X</Typography>
+                  <Typography variant="small" color="blue-gray" className="font-normal">Amy Brockerville</Typography>
                   <Typography
                     variant="h5"
                     color="blue-gray"
                     className="mb-3 mt-2 font-bold"
                   >
-                    Review Header Example X
+                    Facebook Review Qoute
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                    Loren Ipsum
+                  "Completely blown away with Mitch’s attention to detail.  Our Gladiator was in much need of some TLC and TLC is what it got and then some.  Mitch brought the Jeep back to new."
                   </Typography>
                 </CardBody>
               </Card>
@@ -144,12 +145,12 @@ Offering a range of services from basic interior/exterior to full exterior paint
               <Card
                 key={title}
                 color="transparent"
-                shadow={false}
+                shadow={true}
                 className="text-center text-blue-gray-900"
               >
-                <div className="mx-auto mb-6 grid h-14 w-14 place-items-center rounded-full bg-blue-gray-900 shadow-lg shadow-gray-500/20">
+                <div className="mx-auto mb-6 grid h-14 w-14 place-items-center rounded-full apply-logo-tonic-green shadow-lg shadow-gray-500/20">
                   {React.createElement(icon, {
-                    className: "w-5 h-5 text-white",
+                    className: "w-5 h-5 ",
                   })}
                 </div>
                 <Typography variant="h5" color="blue-gray" className="mb-2">
@@ -220,7 +221,7 @@ Offering a range of services from basic interior/exterior to full exterior paint
               }
               containerProps={{ className: "-ml-2.5" }}
             />
-            <Button variant="gradient" size="lg" className="mt-8" fullWidth type="submit">
+            <Button variant="filled" size="lg" className="mt-8 apply-tonic-green" fullWidth type="submit">
               Send Message
             </Button>
           </form>

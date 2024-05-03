@@ -4,7 +4,7 @@ import {
 
 export const featuresData = [
   {
-    color: "gray",
+    color: "green-500",
     title: "Awarded Agency",
     icon: ChatBubbleBottomCenterTextIcon,
     description:

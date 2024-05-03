@@ -11,10 +11,10 @@ export function FeatureCard({ color, icon, title, description }) {
     <Card className="rounded-lg shadow-lg shadow-gray-500/10">
       <CardBody className="px-8 text-center">
         <IconButton
-          variant="gradient"
+          variant="filled"
           size="lg"
           color={color}
-          className="pointer-events-none mb-6 rounded-full"
+          className="pointer-events-none mb-6 rounded-full apply-logo-tonic-green"
         >
           {icon}
         </IconButton>

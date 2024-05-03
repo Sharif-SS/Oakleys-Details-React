@@ -18,3 +18,5 @@ npm outdated
 
 This updates them all
 npm update
+
+CTRL + Space Intelisense shortcut 

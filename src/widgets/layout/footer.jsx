@@ -86,7 +86,7 @@ Footer.defaultProps = {
     {
       color: "gray",
       name: "facebook",
-      path: "https://www.facebook.com/profile.php?id=61556028688734",
+      path: "https://www.facebook.com/oakleysdetails",
     },
     {
       color: "gray",
@@ -118,7 +118,7 @@ Footer.defaultProps = {
 
         {
           name: "Contact Us",
-          path: "https://www.facebook.com/profile.php?id=61556028688734",
+          path: "https://www.facebook.com/oakleysdetails",
         },
       ],
     },

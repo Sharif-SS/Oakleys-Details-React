@@ -1,8 +1,8 @@
 export const teamData = [
   {
     img: "/img/team-1.jpg",
-    name: "Blake Follet",
-    position: "Welders and Metal Fabricator",
+    name: "Mitch Oakley",
+    position: "Detailing Maestro",
     socials: [
       {
         color: "light-blue",
