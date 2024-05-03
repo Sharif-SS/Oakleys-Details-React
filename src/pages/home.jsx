@@ -76,19 +76,19 @@ Offering a range of services from basic interior/exterior to full exterior paint
                 href="https://www.facebook.com/oakleysdetails/reviews"
                 target="_blank"
               >
-                <Button className="bg-[#3ADE0E] text-black" variant="outlined">Read Reviews</Button>
+                <Button className="bg-[#3ADE0E] text-black" variant="fill">Read Reviews</Button>
 
               </a>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="shadow-lg border shadow-gray-500/10 rounded-lg">
-                <CardHeader floated={false} className="relative h-56">
+                {/* <CardHeader floated={false} className="relative h-56">
                   <img
                     alt="Card Image"
                     src="/img/teamwork.png"
                     className="h-full w-full"
                   />
-                </CardHeader>
+                </CardHeader> */}
                 <CardBody>
                   <Typography variant="small" color="blue-gray" className="font-normal">Amy Brockerville</Typography>
                   <Typography
@@ -96,7 +96,7 @@ Offering a range of services from basic interior/exterior to full exterior paint
                     color="blue-gray"
                     className="mb-3 mt-2 font-bold"
                   >
-                    Facebook Review Qoute
+                    Facebook Review Spotlight
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
                   "Completely blown away with Mitch’s attention to detail.  Our Gladiator was in much need of some TLC and TLC is what it got and then some.  Mitch brought the Jeep back to new."
