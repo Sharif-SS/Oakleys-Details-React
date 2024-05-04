@@ -197,7 +197,7 @@ Offering a range of services from basic interior/exterior to full exterior paint
                     </div>  */}
 
           
-          <form name="contact" className="mx-auto w-full mt-12 lg:w-5/12" netlify>
+          {/* <form name="contact" className="mx-auto w-full mt-12 lg:w-5/12" netlify>
             <div className="mb-8 flex gap-8">
               <Input variant="outlined" size="lg" label="Full Name" />
               <Input variant="outlined" size="lg" label="Email Address" />
@@ -224,7 +224,7 @@ Offering a range of services from basic interior/exterior to full exterior paint
             <Button variant="filled" size="lg" className="mt-8 apply-tonic-green" fullWidth type="submit">
               Send Message
             </Button>
-          </form>
+          </form> */}
         </div>
       </section>
       <div className="bg-white">
